@@ -1,76 +1,12 @@
-body{
-    margin: 0;
-    font-family: Arial;
-    background: rgb(188, 12, 103);
-}
-
-nav{
-    background: rgb(0, 0, 0);
-    color: white;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav a{
-    color: white;
-    margin-left: 15px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color: rgb(255, 200, 33);
-}
- 
-.hero{
-    background: 10px 20px;
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-    .hero button{
-        padding: 10px 20px;
-        background: rgb(222, 152, 23);
-        border: none;
-        font-size: 16px;
-}
-
-.service{
-    text-align: center;
-    padding: 40px;
-}
-
-.box{
-    background: rgb(194, 230, 33);
-    padding: 20px;
-    margin:10px auto;
-    width:250px;
-    
-}
-.page{
-    padding: 40px;
-
-    text-align: center;
-}
-
-form input,form textarea{
-    width:80px;
-    margin:10px 0;
-    padding: 10px;
-}
-
-form button{
-    padding: 10px 20px;
-    background: black;
-    color: white;
-    border: none;
-}
-
-footer{
-    background: rgb(12, 10, 10);
-    color:white;
-    text-align: center;
-    padding:10px;
-    
-}
+body{margin:0;font-family:Arial;background:#f4f4f4}
+header{background:#111;color:#fff;padding:15px;text-align:center}
+nav a{color:#fff;margin:0 10px;text-decoration:none}
+.hero{text-align:center;padding:60px;background:#ff9800;color:#000}
+.btn{background:#000;color:#fff;padding:12px 20px;text-decoration:none}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:20px}
+.product{background:#fff;padding:15px;border-radius:8px;text-align:center}
+.product img{width:100%;height:180px;object-fit:cover}
+.cart{position:fixed;top:10px;right:10px;background:#ff9800;padding:10px}
+.contact form{max-width:400px;margin:30px auto;display:flex;flex-direction:column;gap:10px}
+input,textarea,button{padding:10px}
+footer{text-align:center;background:#111;color:#fff;padding:10px}
